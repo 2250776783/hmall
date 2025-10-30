@@ -1,0 +1,120 @@
+21:40:55:391  INFO 280176 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 21.0.4 on DESKTOP-5NBVS63 with PID 280176 (D:\project\hmall\cart-service\target\classes started by 王超朋 in D:\project\hmall)
+21:40:55:393 DEBUG 280176 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+21:40:55:394  INFO 280176 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+21:40:56:134  INFO 280176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+21:40:56:137  INFO 280176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+21:40:56:162  INFO 280176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+21:40:56:767  INFO 280176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+21:40:56:777  INFO 280176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+21:40:56:779  INFO 280176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+21:40:56:970  INFO 280176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+21:40:56:970  INFO 280176 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1536 ms
+21:40:57:041  WARN 280176 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController' defined in file [D:\project\hmall\cart-service\target\classes\com\hmall\cart\controller\CartController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hmall.service.ICartService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+21:40:57:043  INFO 280176 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+21:40:57:055  INFO 280176 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+21:40:57:079 ERROR 280176 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.hmall.cart.controller.CartController required a bean of type 'com.hmall.service.ICartService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.hmall.service.ICartService' in your configuration.
+
+21:41:16:225  INFO 273664 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 21.0.4 on DESKTOP-5NBVS63 with PID 273664 (D:\project\hmall\cart-service\target\classes started by 王超朋 in D:\project\hmall)
+21:41:16:228 DEBUG 273664 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+21:41:16:228  INFO 273664 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+21:41:16:947  INFO 273664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+21:41:16:950  INFO 273664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+21:41:16:977  INFO 273664 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+21:41:17:547  INFO 273664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+21:41:17:555  INFO 273664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+21:41:17:556  INFO 273664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+21:41:17:693  INFO 273664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+21:41:17:693  INFO 273664 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1417 ms
+21:41:17:740  WARN 273664 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController' defined in file [D:\project\hmall\cart-service\target\classes\com\hmall\cart\controller\CartController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hmall.service.ICartService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+21:41:17:741  INFO 273664 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+21:41:17:753  INFO 273664 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+21:41:17:771 ERROR 273664 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.hmall.cart.controller.CartController required a bean of type 'com.hmall.service.ICartService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.hmall.service.ICartService' in your configuration.
+
+21:43:11:415  INFO 265392 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 21.0.4 on DESKTOP-5NBVS63 with PID 265392 (D:\project\hmall\cart-service\target\classes started by 王超朋 in D:\project\hmall)
+21:43:11:418 DEBUG 265392 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+21:43:11:418  INFO 265392 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+21:43:12:149  INFO 265392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+21:43:12:152  INFO 265392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+21:43:12:175  INFO 265392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+21:43:12:771  INFO 265392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+21:43:12:779  INFO 265392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+21:43:12:779  INFO 265392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+21:43:12:920  INFO 265392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+21:43:12:920  INFO 265392 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1461 ms
+21:43:12:979  WARN 265392 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartController' defined in file [D:\project\hmall\cart-service\target\classes\com\hmall\cart\controller\CartController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cartServiceImpl' defined in file [D:\project\hmall\cart-service\target\classes\com\hmall\cart\service\impl\CartServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.hmall.item.service.IItemService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+21:43:12:981  INFO 265392 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+21:43:12:993  INFO 265392 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+21:43:13:010 ERROR 265392 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.hmall.cart.service.impl.CartServiceImpl required a bean of type 'com.hmall.item.service.IItemService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.hmall.item.service.IItemService' in your configuration.
+
+21:50:28:659  INFO 289820 --- [main] com.hmall.cart.CartApplication           : Starting CartApplication using Java 21.0.4 on DESKTOP-5NBVS63 with PID 289820 (D:\project\hmall\cart-service\target\classes started by 王超朋 in D:\project\hmall)
+21:50:28:662 DEBUG 289820 --- [main] com.hmall.cart.CartApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+21:50:28:662  INFO 289820 --- [main] com.hmall.cart.CartApplication           : The following 1 profile is active: "local"
+21:50:29:408  INFO 289820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+21:50:29:411  INFO 289820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+21:50:29:434  INFO 289820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+21:50:29:990  INFO 289820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+21:50:29:998  INFO 289820 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+21:50:29:999  INFO 289820 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+21:50:30:143  INFO 289820 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+21:50:30:144  INFO 289820 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1439 ms
+21:50:30:998  INFO 289820 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+21:50:31:335  INFO 289820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+21:50:31:336  INFO 289820 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+21:50:31:338  INFO 289820 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+21:50:31:355  INFO 289820 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+21:50:31:423  INFO 289820 --- [main] com.hmall.cart.CartApplication           : Started CartApplication in 3.149 seconds (JVM running for 3.723)
+21:50:41:131  INFO 289820 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:50:41:131  INFO 289820 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+21:50:41:132  INFO 289820 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+21:50:49:384  INFO 289820 --- [http-nio-8082-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+21:50:49:649  INFO 289820 --- [http-nio-8082-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+21:50:49:656 DEBUG 289820 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : ==>  Preparing: SELECT id,user_id,item_id,num,name,spec,price,image,create_time,update_time FROM cart WHERE (user_id = ?)
+21:50:49:695 DEBUG 289820 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : ==> Parameters: 1(Long)
+21:50:49:718 DEBUG 289820 --- [http-nio-8082-exec-7] c.h.cart.mapper.CartMapper.selectList    : <==      Total: 1
+23:25:34:938  INFO 289820 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+23:25:34:956  INFO 289820 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
